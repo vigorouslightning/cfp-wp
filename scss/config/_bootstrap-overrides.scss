@@ -1,0 +1,35 @@
+// Cards
+.card-header {
+    background: $cfp-blue;
+    border: none;
+    color: white;
+    &:first-child {
+        border-radius: 0;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .xl {
+        display: block !important;
+    }
+}
+@include media-breakpoint-up(lg) {
+    .lg {
+        display: block !important;
+    }
+}
+@include media-breakpoint-up(md) {
+    .md {
+        display: block !important;
+    }
+}
+@include media-breakpoint-up(sm) {
+    .sm {
+        display: block !important;
+    }
+}
+@include media-breakpoint-up(xs) {
+    .xs {
+        display: block !important;
+    }
+}

@@ -1,0 +1,12 @@
+@import "libs/bootstrap/bootstrap";
+@import "libs/flaticon";
+
+@import "config/variables";
+@import "config/bootstrap-overrides";
+@import "config/mixins";
+
+@import "base/body";
+
+@import "modules/nav";
+@import "modules/main";
+@import "modules/footer";

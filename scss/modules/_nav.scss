@@ -1,0 +1,109 @@
+.fixed {
+    .nav {
+        position: fixed;
+        top: em(-65);
+    }
+}
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    height: em(138);
+    background: white;
+    overflow-x: visible;
+    .main-logo {
+        height: em(201);
+        width: em(203);
+    }
+}
+#main-nav {
+    .menu-item-has-children {
+        &:after {
+            @extend .fi:before;
+            @extend .flaticon-arrows:before;
+            color: $cfp-red;
+            font-size: .5em;
+            line-height: 0;
+            height: 1em;
+        }
+    }
+    
+    .menu-item:hover {
+        .sub-menu {
+            display: block;
+            position: absolute;
+            width: 25%;
+            padding-left: 0;
+            margin-left: em(-20);
+            background: $cfp-blue;
+        }
+    }
+    .sub-menu {
+        display: none;
+    }
+}
+.nav-wrapper {
+    .top-menu {
+        padding-top: em(12);
+        font-size: em(22);
+        text-align: right;
+        .flaticon-facebook {
+            color: $facebook;
+        }
+        .flaticon-linkedin {
+            color: $linkedin;
+        }
+        .flaticon-twitter {
+            color: $twitter;
+        }
+        .flaticon-youtube {
+            color: $youtube;
+            margin-right: em(50, 24);
+        }
+        .flaticon-login {
+            color: #333;
+        }
+        .nav-text {
+            margin-left: em(5, 24);
+            color: #333;
+        }
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        display: block;
+        left: -100%;
+        right: 100%;
+        top: 65px;
+        height: 73px;
+        background: #192656;
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        left: 100%;
+        right: -100%;
+        top: 65px;
+        height: 73px;
+        background: #EC1F31;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        li {
+            display: inline-block;
+            float: left;
+            padding: 20px;
+            font-weight: 800;
+            font-size: 24px;
+            a {
+                color: white;
+            }
+        }
+    }
+}
