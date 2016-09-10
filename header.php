@@ -59,37 +59,25 @@
 </head>
 <body>
     <nav class="nav">
-        <div class="container-fluid nav-wrapper">
-            <div class="row">
-                <div class="col-lg-1">
-                    
+        <div class="container nav-wrapper" style="display: flex; flexwrap: nowrap; position: relative;">
+                <a href="/"><img class="main-logo" src="/wp-content/themes/CFP/cfp_logo.gif" /></a>
+            <div style="width: 100%; margin-left: 15px;">
+                <div class="top-menu" style="height: 65px; width: 100%;">
+                    <a href="#"><span class="fi flaticon-facebook"></span></a>
+                    <a href="#"><span class="fi flaticon-linkedin"></span></a>
+                    <a href="#"><span class="fi flaticon-twitter"></span></a>
+                    <a href="#"><span class="fi flaticon-youtube"></span></a>
+                    <a href="#"><span class="fi flaticon-login"></span><span class="nav-text">Login</span></a>
                 </div>
-                <div class="col-lg-9">
-                    <a href="/"><img class="main-logo" src="/wp-content/themes/CFP/cfp_logo.gif" /></a>
-                    <div style="width: 100%; margin-left: 15px;">
-                        <div class="top-menu" style="height: 65px; width: 100%;">
-                            <a href="#"><span class="fi flaticon-facebook"></span></a>
-                            <a href="#"><span class="fi flaticon-linkedin"></span></a>
-                            <a href="#"><span class="fi flaticon-twitter"></span></a>
-                            <a href="#"><span class="fi flaticon-youtube"></span></a>
-                            <a href="#"><span class="fi flaticon-login"></span><span class="nav-text">Login</span></a>
-                        </div>
-                        <div id="main-nav" style="height: 73px; background: #192656; width: 100%;">
-                            <?php
-					        // Primary navigation menu.
-					        wp_nav_menu( array(
-					    	    'menu_class'     => 'nav-menu',
-						        'theme_location' => 'primary',
-					        ) );
-				            ?>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    
+                <div id="main-nav" style="height: 73px; background: #192656; width: 100%;">
+                    <?php
+					// Primary navigation menu.
+					wp_nav_menu( array(
+						'menu_class'     => 'nav-menu',
+						'theme_location' => 'primary',
+					) );
+				    ?>
                 </div>
             </div>
-                
-            
         </div>
     </nav>
