@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 09/09/2016 21:11
+    Creation date: 14/09/2016 05:36
     */
 
     @font-face {
@@ -36,8 +36,8 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-arrows:before { content: "\f100"; }
-.flaticon-arrows-1:before { content: "\f101"; }
+    .flaticon-arrow-border:before { content: "\f100"; }
+.flaticon-arrow-full:before { content: "\f101"; }
 .flaticon-down-arrow:before { content: "\f102"; }
 .flaticon-down-chevron:before { content: "\f103"; }
 .flaticon-download:before { content: "\f104"; }
@@ -57,16 +57,18 @@
 .flaticon-money:before { content: "\f112"; }
 .flaticon-piggy-bank:before { content: "\f113"; }
 .flaticon-presentation:before { content: "\f114"; }
-.flaticon-right-arrow:before { content: "\f115"; }
-.flaticon-right-arrow-1:before { content: "\f116"; }
-.flaticon-right-double-chevron:before { content: "\f117"; }
-.flaticon-twitter:before { content: "\f118"; }
-.flaticon-up-arrow:before { content: "\f119"; }
-.flaticon-up-chevron:before { content: "\f11a"; }
-.flaticon-youtube:before { content: "\f11b"; }
+.flaticon-process:before { content: "\f115"; }
+.flaticon-question:before { content: "\f116"; }
+.flaticon-right-arrow:before { content: "\f117"; }
+.flaticon-right-arrow-1:before { content: "\f118"; }
+.flaticon-right-double-chevron:before { content: "\f119"; }
+.flaticon-twitter:before { content: "\f11a"; }
+.flaticon-up-arrow:before { content: "\f11b"; }
+.flaticon-up-chevron:before { content: "\f11c"; }
+.flaticon-youtube:before { content: "\f11d"; }
     
-    $font-Flaticon-arrows: "\f100";
-    $font-Flaticon-arrows-1: "\f101";
+    $font-Flaticon-arrow-border: "\f100";
+    $font-Flaticon-arrow-full: "\f101";
     $font-Flaticon-down-arrow: "\f102";
     $font-Flaticon-down-chevron: "\f103";
     $font-Flaticon-download: "\f104";
@@ -86,10 +88,12 @@
     $font-Flaticon-money: "\f112";
     $font-Flaticon-piggy-bank: "\f113";
     $font-Flaticon-presentation: "\f114";
-    $font-Flaticon-right-arrow: "\f115";
-    $font-Flaticon-right-arrow-1: "\f116";
-    $font-Flaticon-right-double-chevron: "\f117";
-    $font-Flaticon-twitter: "\f118";
-    $font-Flaticon-up-arrow: "\f119";
-    $font-Flaticon-up-chevron: "\f11a";
-    $font-Flaticon-youtube: "\f11b";
+    $font-Flaticon-process: "\f115";
+    $font-Flaticon-question: "\f116";
+    $font-Flaticon-right-arrow: "\f117";
+    $font-Flaticon-right-arrow-1: "\f118";
+    $font-Flaticon-right-double-chevron: "\f119";
+    $font-Flaticon-twitter: "\f11a";
+    $font-Flaticon-up-arrow: "\f11b";
+    $font-Flaticon-up-chevron: "\f11c";
+    $font-Flaticon-youtube: "\f11d";

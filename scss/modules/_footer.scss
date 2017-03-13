@@ -1,7 +1,13 @@
 footer {
-    height: em(300);
+    padding: em(20);
     background: $cfp-blue;
     p {
         color: white;
+        font-size: em(14);
+        
+    }
+    h3 {
+        color: white;
+        border-bottom: em(4) solid white;
     }
 }
